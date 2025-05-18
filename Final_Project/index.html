@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no" />
+  <title>Auralis-Webzine</title>
+    <link rel="stylesheet" href="metalzine.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-tagline">If it’s about music...it’s here.</div>     
+    <div class="header-container">       
+      <div class="top-bar-centered">
+        <div class="auth-box">
+          <button class="auth-button">Login/Register</button>
+        </div>
+        
+        <a href="https://auralis.manbiz.net">
+          <img src="metalzine.img/auralis-logo1-last.png" alt="Auralis Logo" class="site-logo" />
+        </a>
+      
+        <div class="toggle-button">
+          <button type="button" onclick="toggleButtonHandler()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      
+      <nav class="site-nav">
+        <ul class="center-nav">
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">REVIEWS</a></li>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">INTERVIEWS</a></li>
+          <li><a href="#">CONCERTS</a></li>
+          <li class="mobile-auth">
+            <a href="#">Login</a> / <a href="#">Register</a>
+          </li>
+        </ul>
+      </nav>
+  
+    </div>
+  </header>  
+
+  <main class="container">
+    <section class="featured-and-latest">      
+      <div class="featured-article">
+        <img src="metalzine.img/epicajan2025press_638.jpg" alt="Featured Article Image" />
+        <div class="featured-text">
+          <h2>SIMONE SIMONS Talks EPICA's 'Renewal' On New Album 'Aspiral'<br>
+            The Band Is Continuing To Rise'</h2>
+          <p>As NIGHTWISH abstains from touring for the foreseeable future, the door appears 
+            to be open for the Netherlands' EPICA to assume the mantle of the biggest symphonic metal act.
+             The band's popularity in Europe and South America certainly suggests something like that is on
+              the horizon, but, as always, the United States remains the final mountain to climb. EPICA has 
+              done its share of support runs in the territory and will turn its attention this May to three 
+              "showcase" gigs in New York City, Atlanta and Los Angeles before heading to Mexico. The success
+               of these shows and whether the band is willing to subject themselves to the hustle and grind of
+                touring the States will no doubt be a key factor on how much more the U.S. will see of them.
+                In the near term, EPICA's tenth studio album, "Aspiral", is now out and about. 
+                The hour-long LP finds the sextet in full pomp and glory — with some occasional nods to their
+                 less bombastic beginnings while continuing the "A New Age Dawns" storyline. "Aspiral" was also
+                  an album created in a purely democratic fashion behind a series of "writing camps," which seemed
+                   like the right place to start for BLABBERMOUTH.NET with frontwoman Simone Simons.</p>
+                   <button class="view-more">View More...</button>
+        </div>
+      </div> 
+
+      <section class="latest-posts">
+        <h2>Latest Posts</h2>
+        <div class="latest-grid">
+          <a href="#">
+            <article class="post small">
+              <img src="metalzine.img/Savatage live.jpg.webp" alt="Latest 1">
+              <h4>Live Report: Savatage Perform Live For The First Time In Ten Years! </h4>
+            </article>
+          </a>
+          <a href="#">
+            <article class="post small">
+              <img src="metalzine.img/progmetalguide-cover.jpg" alt="Latest 2">
+              <h4>The Absolute Guide To Progressive Metal</h4>
+            </article>
+          </a>
+          <a href="#">
+            <article class="post small">
+              <img src="metalzine.img/dvne.webp" alt="Latest 3">
+              <h4>5 Underground Bands to Watch in 2025</h4>
+            </article>
+          </a>
+        </div>
+      </section>
+    </section>  
+
+    <section class="content-section">
+      <h2>News</h2>
+      <div class="post-list">
+        <article class="post"><img src="metalzine.img/turnstile-2.jpg" alt=""><h3>Two new singles by the hardcore punk band, Turnstile.</h3><p>Watch the incredible videos for "Seeing Stars" and "Birds".</p></article>
+        <article class="post"><img src="metalzine.img/parkwaydrive.webp" alt=""><h3>New Music by Parkway Drive</h3><p>After three years they released new song "Sacred".</p></article>
+        <article class="post"><img src="metalzine.img/Paradise-Lost.jpg" alt=""><h3>Paradise Lost releases new single this month?</h3><p>Nick Holmes confirms rumours.</p></article>
+      </div>      
+      <button class="view-more">View More News</button>
+    </section>
+  
+    <section class="content-section">
+      <h2>Reviews</h2>
+      <div class="post-list">
+        <article class="post"><img src="metalzine.img/in-the-woods-otr.jpg" alt=""><h3>In The Woods...-Otra</h3><p>Maybe it`s time to put the woods into rest?</p></article>
+        <article class="post"><img src="metalzine.img/ghost-skeleta.jpg" alt=""><h3>Ghost-Skeletá</h3><p>They did it again!</p></article>
+        <article class="post"><img src="metalzine.img/MH-Unatoned.jpg" alt=""><h3>Mashine Head-Unatoned</h3><p>Machine Head prove once again that longevity
+         in metal isn't about comfort – it's about taking risks.</p></article>       
+      </div>
+      <button class="view-more">View More Reviews</button>
+    </section>
+  
+    <section class="content-section"> 
+      <h2>Features</h2>
+      <div class="post-list">
+        <article class="post"><img src="metalzine.img/Savatage.jpg" alt=""><h3>Jeff Plate talks about Savatage's Return.</h3><p>'Being Able To Carry On The Legacy Is Important To All Of Us'</p></article>
+        <article class="post"><img src="metalzine.img/Throne.jpg" alt=""><h3>Throne of Thorns: sign with ROAR! Rock of Angels Records!</h3><p>T.O.T rises as a blazing new force in the (prog)power metal scene!</p></article>
+        <article class="post"><img src="metalzine.img/svalbard2.webp" alt=""><h3>SVALBARD: Announce New European Tour Dates</h3><p>Having recently finished an extensive
+           tour across the continent supporting post-metal monoliths Cult Of Luna […]</p></article>        
+      </div>
+      <button class="view-more">View More Features</button>
+    </section>
+
+    <section class="content-section">
+      <h2>Interviews</h2>
+      <div class="post-list">
+        <article class="post"><img src="metalzine.img/geofftate (2).jpg"><h3>Geoff Tate</h3><p>The word "genius" is probably tossed around too easily in describing musicians and their work, but in this case, it's a perfect fit[…]</p></article>
+        <article class="post"><img src="metalzine.img/avantasia.jpg" alt=""><h3>Tobias Sammet-Avantasia</h3><p>"Bands nowdays first buy their costumes and then their instruments!"</p></article>
+        <article class="post"><img src="metalzine.img/touche_amore.jpg" alt=""><h3>Touche Amore</h3><p>"Crowd participation makes us feel amazing, grateful, and at home"</p></article>         
+      </div>
+      <button class="view-more">View More Interviews</button>
+    </section>
+
+    <section class="content-section">
+      <h2>Concerts</h2>
+      <div class="post-list">  
+        <article class="post"><img src="metalzine.img/anneke2.webp" alt=""><h3>Anneke Van Giersbergen @ Gazarte, 30/04/25</h3><p>Sometimges all you need it's an acoustic guitar and an angelic voice...</p></article>
+        <article class="post"><img src="metalzine.img/graveyard.webp" alt=""><h3>Graveyard @ Floyd, 12/04/25</h3><p>The Swedish band gave us a classic rock show!</p></article>
+        <article class="post"><img src="metalzine.img/need.jpg" alt=""><h3>Need @ Piraeus Club Academy, 27/03/25</h3><p>The Greeks gave it all in their 20 year anniversary show!</p></article>     
+      </div>
+      <button class="view-more">View More Concerts</button>
+    </section>        
+  </main>
+  
+  <footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-text">&copy; 2025 auralis.manbiz.net. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal Login/Register -->
+<div id="auth-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div class="modal-tabs">
+      <button class="tab-btn active" onclick="switchTab('login')">Login</button>
+      <button class="tab-btn" onclick="switchTab('register')">Register</button>
+    </div>
+    <div class="tab-content" id="login">
+      <input type="text" id="login-username" placeholder="Username">
+      <input type="password" id="login-password" placeholder="Password">
+      <button class="submit-btn" onclick="validateLogin()">Login</button>
+      <p class="forgot-password"><a href="#" class="forgot-link">You forgot your password?</a></p>
+    </div>
+    <div class="tab-content hidden" id="register">
+      <input type="text" id="register-username" placeholder="Username">
+      <input type="email" id="register-email" placeholder="Email">
+      <input type="password" id="register-password" placeholder="Password">
+      <button class="submit-btn" onclick="validateRegister()">Register</button>
+    </div>
+  </div>
+</div>
+
+<!-- Forgot Password Modal -->
+<div id="forgot-password-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="forgot-close">&times;</span>
+    <h2>Reset your password</h2>
+    <form id="forgot-password-form">
+      <label for="forgot-email">Email:</label>
+      <input type="email" id="forgot-email" required placeholder="Enter your email">
+      <button type="submit">Send Reset Link</button>
+    </form>
+    <p id="forgot-message" class="hidden">If the email is valid, a reset link has been sent.</p>
+  </div>
+</div>
+  
+  <script src="metalzine.js"></script>
+</body>
+</html>
